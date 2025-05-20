@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testTrianguloRectangulo" project="PracticaTeoremaPitagoras" tests="6" started="6" failures="1" errors="4" ignored="0">
+  <testsuite name="tests.testTrianguloRectangulo" time="0.061" displayname="testTrianguloRectangulo" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]">
+    <testcase name="testArea2" classname="tests.testTrianguloRectangulo" time="0.031" displayname="testArea2()" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]/[method:testArea2()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	The constructor TrianguloRectangulo(int, int) is undefined
+&#13;
+	at tests.testTrianguloRectangulo.testArea2(testTrianguloRectangulo.java:46)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testArea" classname="tests.testTrianguloRectangulo" time="0.005" displayname="testArea()" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]/[method:testArea()]"/>
+    <testcase name="testPerimetro2" classname="tests.testTrianguloRectangulo" time="0.002" displayname="testPerimetro2()" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]/[method:testPerimetro2()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	The constructor TrianguloRectangulo(int, int) is undefined
+&#13;
+	at tests.testTrianguloRectangulo.testPerimetro2(testTrianguloRectangulo.java:63)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testHipotenusa" classname="tests.testTrianguloRectangulo" time="0.002" displayname="testHipotenusa()" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]/[method:testHipotenusa()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	The method hipotenusa() is undefined for the type TrianguloRectangulo
+&#13;
+	at tests.testTrianguloRectangulo.testHipotenusa(testTrianguloRectangulo.java:30)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testHipotenusa2" classname="tests.testTrianguloRectangulo" time="0.002" displayname="testHipotenusa2()" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]/[method:testHipotenusa2()]">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	The constructor TrianguloRectangulo(int, int) is undefined
+	The method hipotenusa() is undefined for the type TrianguloRectangulo
+&#13;
+	at tests.testTrianguloRectangulo.testHipotenusa2(testTrianguloRectangulo.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testPerimetro" classname="tests.testTrianguloRectangulo" time="0.014" displayname="testPerimetro()" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]/[method:testPerimetro()]">
+      <failure>
+        <expected>2.0</expected>
+        <actual>3.414213562373095</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;2.0&gt; but was: &lt;3.414213562373095&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at tests.testTrianguloRectangulo.testPerimetro(testTrianguloRectangulo.java:41)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

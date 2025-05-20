@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testTrianguloRectangulo" project="PracticaTeoremaPitagoras" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="tests.testTrianguloRectangulo" time="0.052" displayname="testTrianguloRectangulo" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]">
+    <testcase name="test" classname="tests.testTrianguloRectangulo" time="0.052" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:tests.testTrianguloRectangulo]/[method:test()]">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "void", record expected
+	void is an invalid type for the variable testTrianguloPorDefecto
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error on token "}", delete this token
+	Syntax error on token "void", record expected
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error on token "}", delete this token
+	Syntax error on token "void", record expected
+	Syntax error on tokens, ClassBody expected instead
+	Syntax error on token ")", ++ expected
+	Syntax error on token "}", delete this token
+&#13;
+	at tests.testTrianguloRectangulo.test(testTrianguloRectangulo.java:12)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -21,7 +21,7 @@ public class TrianguloRectangulo {
 	 * @param b
 	 * @param c
 	 */
-	public TrianguloRectangulo(double a , double b, double c) {
+	public TrianguloRectangulo(double a , double b) {
 		
 		this.a= a;
 		this.b=b;
@@ -64,7 +64,7 @@ public class TrianguloRectangulo {
 	   * @return
 	   */
 	
-	private double Hipotenusa() {
+	public double Hipotenusa() {
         double c = Math.sqrt((a*a) + b*b);
         return c;
    

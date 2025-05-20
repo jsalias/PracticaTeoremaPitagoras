@@ -1,0 +1,49 @@
+package tests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class testTrianguloRectangulo {
+
+	@Test
+	void test() {
+		
+		  public void testTrianguloPorDefecto() {
+		        TrianguloRectangulo t = new TrianguloRectangulo();
+		        assertEquals(1.0, t.getA());
+		        assertEquals(1.0, t.getB());
+		        assertEquals(Math.round(Math.sqrt(2) * 100.0) / 100.0, t.hipotenusa());
+		        assertEquals(0.5, t.area());
+		        assertEquals(1.0 + 1.0 + Math.sqrt(2), t.perimetro(), 0.0001);
+		    }
+
+		    @Test
+		    public void testTrianguloValido() {
+		        TrianguloRectangulo t = new TrianguloRectangulo(3, 4);
+		        assertEquals(3.0, t.getA());
+		        assertEquals(4.0, t.getB());
+		        assertEquals(5.0, t.hipotenusa());  // porque 3-4-5 es pitagórico
+		        assertEquals(6.0, t.area());
+		        assertEquals(3.0 + 4.0 + 5.0, t.perimetro());
+		    }
+
+		    @Test
+		    public void testTrianguloInvalido() {
+		        assertThrows(IllegalArgumentException.class, () -> {
+		            new TrianguloRectangulo(0, 5);
+		        });
+
+		        assertThrows(IllegalArgumentException.class, () -> {
+		            new TrianguloRectangulo(-3, 4);
+		        });
+
+		       
+		    }
+
+
+		
+		
+	}
+
+}
